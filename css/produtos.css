@@ -40,3 +40,15 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .produtos li {
+        display: block;
+        width: 75%;
+        margin: 0 12% 12%;
+    }
+
+    li img {
+        width: 80%;
+    }
+}

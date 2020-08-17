@@ -54,3 +54,27 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .main-produtos,
+    .main-contato {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+}
